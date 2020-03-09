@@ -1,4 +1,4 @@
-package br.com.andsantos.springbootrestdatasample.springbootrestdatasample.person;
+package br.com.andsantos.springbootrestdatasample.springbootrestdatasample.people;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Person {
+public class PeopleEntity {
 
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
